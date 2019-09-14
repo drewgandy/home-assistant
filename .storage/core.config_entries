@@ -1,0 +1,65 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "4c44d8cf898b4368b9b310ec48abeb6c",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "network_key": "0x75, 0xEE, 0x7F, 0x3B, 0xD5, 0xCD, 0xB8, 0xA8, 0xA2, 0x75, 0xCE, 0x61, 0xD9, 0x3D, 0x90, 0xE0",
+                    "usb_path": "/dev/ttyACM0"
+                },
+                "domain": "zwave",
+                "entry_id": "7a09297e43a0482eaaa3fdadb0a7d785",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Z-Wave",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "cast",
+                "entry_id": "967cc150f8144185a555438ab6df09c9",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "wemo",
+                "entry_id": "0ceb2403ee7d45a4bd7767292a8ed361",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Wemo",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
